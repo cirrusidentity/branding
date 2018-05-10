@@ -1,0 +1,513 @@
+@charset "utf-8";
+/* Title: Cirrus Identity Brand Guidlines
+** Description: Brand Guidelines Webpage for Cirrus Identity
+** Author: Pixelkeet - www.pixelkeet.com
+** Created: 04-03-2018
+** Updated: 04-08-2018
+************************************** */
+
+
+/* = Main Containers
+===================================== */
+html,
+body {
+	height:100%;
+}
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	color:#515154;
+	background: #fff;
+	}
+
+section {
+	margin: 0 auto;
+	max-width: 50em;
+}
+
+header {
+	height: 100%;
+	text-align: center;
+  background:#fff;
+}
+header::after {
+  content: "";
+  background:  url(../img/header-bg.svg) no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+header nav {
+	position: fixed;
+	bottom: 0;
+	z-index: 9999;
+	border-top: 1px solid #eee;
+	width: 100%;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: 600;
+  font-size: 90%;
+  letter-spacing: 0.05em;
+	background: #579FD1;
+}
+
+.center-vertical {
+	position: relative;
+	z-index:101;
+	top: 50%;
+	transform:         translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform:    translateY(-50%);
+	-o-transform:      translateY(-50%);
+}
+
+.col {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.credit {
+  margin-bottom: 5em;
+  text-align: center;
+  font-size: 80%;
+  opacity: 0.5;
+}
+
+
+/* = Typography
+===================================== */
+h1,
+h2 {
+	font-weight: normal;
+	font-family: 'Varela', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  position: relative;
+  top: -1em;
+	color: #C2C1C0;
+  font-family: 'Varela', 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	text-align: center;
+}
+h1 img {
+	display: block;
+	margin:0 auto;
+	margin-bottom: 1em;
+  border-bottom: 1px solid rgba(81,81,81,0.2);
+	width: 200px;
+	height: 60px;
+  padding-bottom: 1.2em;
+}
+h1 strong {
+	padding-top: 1em;
+	font-weight: normal;
+}
+
+h2 {
+	margin:0 0 0.5em 0;
+	color:#C2C1C0;
+}
+section h2 {
+  vertical-align: top;
+  display: inline-block;
+  width:25%;
+}
+
+h3 {
+	margin: 0 0 0.5em 0;
+	font-size: 125%;
+	color: #579FD1;
+  font-weight: normal;
+}
+
+h4 {
+	margin: 0;
+}
+
+.example {
+	width: auto;
+  padding: 0;
+}
+
+p,ul {
+	margin:0 0 0.5em 0;
+	font-size: 90%;
+	line-height: 1.4em;
+}
+p.lrg {
+	margin-bottom: 4em;
+  padding-top: 0.1em;
+	font-size: 110%;
+}
+p.lrg .downloads {
+  display: block;
+  margin-top: 0.5em;
+}
+
+ul {
+	margin-left: 1.5em;
+}
+ul li {
+	margin-bottom: 0.5em;
+}
+
+strong {
+	font-weight: 400;
+}
+
+a {
+	color:#8BC646;
+	text-decoration: none;
+}
+a:hover {
+	color:#579FD1;
+}
+
+nav ul {
+  margin-bottom: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+header nav a {
+	display: inline-block;
+	padding: 1em;
+	color: #fff;
+	text-align: center;
+}
+header nav a:hover {
+	color: #fff;
+	background: #2B6186;
+}
+
+.labels {
+  color: #AAA;
+  font-weight: 600;
+}
+
+.numbers {
+  color:#AAA;
+}
+
+.light-blue {
+	color: #579FD1;
+}
+.green {
+	color: #8BC646;
+}
+.light-gray {
+	color: #B7B7B7;
+}
+.gray {
+	color: #939598;
+}
+.dark-gray {
+	color: #757575;
+}
+.dark-blue {
+  color: #2B6186;
+}
+.pale-blue {
+  color: #A5C8DF;
+}
+
+/* = Section
+===================================== */
+section {
+	margin-bottom: 1em;
+  padding-top: 2em;
+}
+
+section .sectionContent {
+  vertical-align: top;
+  display: inline-block;
+  width:75%;
+}
+
+section .col2 {
+	padding-left: 2em;
+}
+
+#brand-summary {
+  position: relative;
+	margin-bottom: 4em;
+  border-top: 1px solid rgba(87,159,209,0.4);
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+  background: #2B6186;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+}
+#brand-summary::after {
+  content: "";
+  background: url(../img/bg-img-graduates-hill.jpg) no-repeat 50% 0%;
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+#brand-summary h2 {
+	margin:0 auto;
+  margin-top: -3em;
+  width: 100%;
+	max-width: 25em;
+	color: #fff;
+	font-size: 1.25em;
+  text-transform: none;
+}
+
+section#logo .row {
+	margin-bottom: 2em;
+	min-height: 10em;
+}
+
+section#logo .blue-bg {
+	background: #0190be;
+  -webkit-print-color-adjust: exact;
+}
+
+section#logo .col1 {
+	width: 40%;
+	padding: 2em 2em;
+	vertical-align: top;
+}
+section#logo .col1 img,
+section#typography .col1 img {
+	max-height: 8em;
+}
+section#logo .col1 img:nth-child(1) {
+	margin-bottom: 2em;
+}
+section#logo .col2,
+section#typography .col2,
+section#images .col2 {
+	width: 60%;
+}
+
+section#colors .row {
+	margin-bottom: 2em;
+	min-height: 10em;
+}
+
+section#colors .col1 {
+	float: left;
+	width: 6em;
+	height: 6em;
+	text-indent: -9999px;
+  -webkit-print-color-adjust: exact;
+}
+section#colors .col1.light-blue {
+  background: #579fd1;
+}
+section#colors .col1.dark-blue {
+  background: #2b6186;
+}
+section#colors .col1.pale-blue {
+  background: #A5C8DF;
+}
+section#colors .col1.gray {
+  background: #939598;
+}
+section#colors .col1.light-gray {
+  background: #b7b7b7;
+}
+section#colors .col1.dark-gray {
+  background: #757575;
+}
+section#colors .col1.green {
+  background: #8BC646;
+}
+
+section#colors .col2 {
+	max-width: 20em;
+}
+
+section#typography {
+	margin-bottom: 5em;
+}
+
+section#typography .row {
+	margin-bottom: 2em;
+}
+
+section#typography .col1 {
+	width: 40%;
+	padding: 0 2em 0 0;
+	vertical-align: top;
+}
+
+section#images {
+	margin-bottom: 5em;
+}
+
+section#images .row {
+	margin-bottom: 2em;
+}
+
+section#images .col1 {
+	width: 40%;
+	padding: 0;
+	vertical-align: top;
+}
+
+section#images img {
+	width:100%;
+}
+
+section#images .col1.infographic-p-d {
+	text-align: center;
+}
+section#images .col1.infographic-p-d img {
+	max-width: 250px;
+	text-indent: -9999px;
+	background-size: contain;
+}
+section#images .col1.infographic-p-d img:nth-child(1) {
+	max-width: 100%;
+}
+section#images .col1.infographic-p-d img:nth-child(2) {
+	max-height: 250px;
+}
+
+section#images .pattern img {
+  margin:0 auto;
+	width: 100%;
+	opacity: 0.5;
+}
+
+/* = Mobile Styles
+===================================== */
+@media (max-width:31em) {
+	section .col {
+		width: 100% !important;
+	}
+	section .col2 {
+		margin-top: 1em;
+		padding-left: 0;
+	}
+	section#typography {
+		margin-bottom: 3em;
+	}
+	p.lrg {
+		margin-bottom: 1.5em;
+	}
+	h2.example {
+		padding: 0;
+	}
+
+	header nav a {
+		font-size: 80%;
+	}
+
+	#brand-summary h2 {
+		font-size: 110%;
+	}
+
+	section#images {
+		padding-bottom: 5em;
+	}
+
+  nav ul li a {
+    padding-bottom: 0.5em;
+  }
+}
+
+@media (max-width:52em) {
+	h2,
+	.sectionContent {
+		display: block;
+		box-sizing: border-box;
+		width: 100% !important;
+	}
+	h2 {
+		padding:0 1.25em;
+	}
+	.sectionContent {
+		padding: 0 2em;
+	}
+
+  nav ul li:nth-child(1) {
+    display: none;
+  }
+
+  nav ul li a {
+    padding-bottom: 1em;
+  }
+}
+
+/* = Print Styles
+===================================== */
+
+.print,
+.page-break {
+  display: none;
+}
+
+@media print {
+  .print {
+    display: block;
+  }
+
+  .page-break {
+    display: block;
+    height: 2.5in;
+  }
+
+  header {
+    height: 75%;
+    border-bottom:1px solid #e0e0e0;
+  }
+  header nav {
+    display: none;
+  }
+
+  #brand-summary {
+    margin-bottom: 1em;
+    height: 20%;
+  }
+  #brand-summary h2 {
+    max-width: none;
+    font-size: 100%;
+    color: #5C6168;
+  }
+
+  section#logo,
+  section#colors,
+  section#typography,
+  section#images  {
+    page-break-before: always;
+    margin-top: 2em;
+  }
+
+  section#typography .col1 h2.example {
+    padding:0;
+  }
+
+  section#images {
+    margin-bottom: 0em;
+  }
+
+  section#images .pattern {
+    text-align: center;
+  }
+  section#images .pattern img {
+    width:1.5in;
+    height:1.5in;
+  }
+}
