@@ -1,3 +1,3 @@
-# The Cirrus Identity Brand Management Website
+# Cirrus Identity Brand
 
-This site is intended to be the authoritative reference for Cirrus Identity's brand.
+This website is intended to be the authoritative reference for Cirrus Identity's brand.
